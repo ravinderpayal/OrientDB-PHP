@@ -3,21 +3,18 @@
 ### Welcome to the OrientDB-PHP wiki!
 
 **How to Use**
+
 `<?php`
-
 `require_once("orientDB.php");`
-
 `$odb = new OrientDB($host,$username,$password);`
-
 `$odb->connect();`
-
 `$resultArray = $odb->query($dbname,$query);`
 
 `/*********************************`
-
+``
 `Your JOB`
-
+``
 `***************************/`
-
+``1
 `$odb->close();`
 `?>`
