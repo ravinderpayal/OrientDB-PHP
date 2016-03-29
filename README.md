@@ -4,14 +4,20 @@
 
 **How to Use**
 `<?php`
-require_once("orientDB.php");
+
+`require_once("orientDB.php");`
+
 `$odb = new OrientDB($host,$username,$password);`
+
 `$odb->connect();`
+
 `$resultArray = $odb->query($dbname,$query);`
+
 `/*********************************`
 
 `Your JOB`
 
 `***************************/`
+
 `$odb->close();`
 `?>`
